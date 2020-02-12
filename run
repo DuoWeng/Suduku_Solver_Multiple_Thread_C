@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "It is better to solve 4*4 or 9*9 or 16*16, it will give your solution soon. IF you want to solve 25*25 sudoku, please make sure you have at least one hour to wait."
+echo "I use recursive method to solve sudoku,as the number of choices increasing, the deeper recursive method go  "
+
+make
+
+./s
+rm s
+make clean
